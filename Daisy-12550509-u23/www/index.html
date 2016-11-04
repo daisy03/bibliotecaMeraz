@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link rel="manifest" href="manifest.json">
+       <div class="bar bar-header bar-positive">
+  <h1 class="title">Inicio Daisy Meraz</h1></div>
+
+    <!-- un-comment this code to enable service worker
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js')
+          .then(() => console.log('service worker installed'))
+          .catch(err => console.log('Error', err));
+      }
+    </script>-->
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head><br><br><br><br>
+  <body ng-app="starter">
+
+    <div class="card">
+  <div class="item item-divider">
+    Bienvenido a !Biblioteca!
+  </div>
+  <div class="item item-text-wrap">
+     iBiblioteca es una aplicacion desarrollada con ionic que permite gestionar una biblioteca de un centro educativo.
+    Para poder acceder a ella pulsa el siguiente botón.
+  
+   <div class="list">
+    <div class="item item-button-left">
+    Acceso a !Biblioteca
+    <a href="biblioteca.html"  button class="button">
+      <i class="icon ion-university"></i></a>
+    </button>
+  </div>
+  </div>
+  </div>
+
+</div>
+<div class="card">
+  <div class="item item-divider">
+    Información sobre el autor
+  </div>
+  <div class="item item-text-wrap">
+     Esta aplicación fue creada por Daisy Meraz.
+
+   <div class="list">
+    <div class="item item-button-left">
+    Consultar Información.
+    <a href="autor.html" button class="button">
+      <i class="icon ion-woman"></i></a>
+    </button>
+  </div>
+  </div>
+  </div>
+
+</div>
+</div>
+      
+    
+  </body>
+</html>
